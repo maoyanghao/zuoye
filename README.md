@@ -1,4 +1,6 @@
 # zuoye
+作业 项目简介：实现一个文本计数统计程序。能正确统计导入的纯英文txt文本中的字符数，单词数，句子数。 首先在D盘中保存一个dc.txt的纯英文文件。
+![image](https://github.com/maoyanghao/zuoye/blob/master/bbb.png)
  #include<stdio.h>
 #include<stdlib.h>
 unsigned long file_size;
@@ -57,3 +59,5 @@ int main()
     printf("单词个数：%d\n", danci);
     printf("句子个数：%d\n", juzi);
 }
+运行结果如下：
+![image](https://github.com/maoyanghao/zuoye/blob/master/aaa.png)
